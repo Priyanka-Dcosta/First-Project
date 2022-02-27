@@ -33,7 +33,7 @@ If you need to resize images, you have to use an HTML tag, like this:
 This is how you create code examples:
 ```
 def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   countries = ['Unites States', 'United Kingdom', 'India', 'Australia', 'Singapore']
    pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
    fishers = [1891, 2652, 3800, 11611, 1757]
 
