@@ -31,7 +31,7 @@ This AI can help individuals who are new to dating or have been in relationship 
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Relationship traits](https://github.com/Priyanka-Dcosta/First-Project/blob/main/31304986-8569947-image-a-14_1595972850088.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
