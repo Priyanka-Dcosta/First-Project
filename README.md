@@ -21,7 +21,13 @@ The following can be addressed -
 
 ## How is it used?
 
-An algorithm can be built to predict the relationship longevity based on few personal questions that can be used as an input along with newer technologies like voice & face recognition which usually gets modulated with mood change. Individuals who are new to dating or have been in relationship for long , therapists, marraige counselars can make use of these predictions and benefit immensely.
+An algorithm can be built to predict the relationship longevity based on few personal questions that can be used as an input along with newer technologies like voice & face recognition which usually gets modulated with mood change. 
+
+1) Partners will be given a series of personal questions (max 10 questions) which will provide the base for data point.
+2) A series of questions on interests and dislikes can be asked to capture the data points using face recognition techniques.
+3) The input from above then can be bumped against set of relationship traits/ individual traits (published by PNAS) to chart success rate and years in chart.
+
+This AI can help individuals who are new to dating or have been in relationship for long , therapists, marraige counselars . Past relationship patterns can be used to predict events ahead much more efficiently and more accurately using this AI technology.
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
