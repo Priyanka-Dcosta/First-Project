@@ -9,7 +9,7 @@ The aim of the project is to monitor the behaviour between partners and to know 
 
 ## Background
 
-The top fundamental factors that affect a relationship according to the researchers at Stanforn University (published at PNAS) are commitment, appreciation, sexual satisfaction, happiness and conflict. The findings suggests that success of a relationshiop often relies in factoring in other person's feelings. People often break up as they are too self centered or no longer are tolerant of the other person over the course of time.
+The top fundamental factors that affect a relationship according to the researchers at Stanford University (published at PNAS) are commitment, appreciation, sexual satisfaction, happiness and conflict. The findings suggests that success of a relationshiop often relies in factoring in other person's feelings. People often break up as they are too self centered or no longer are tolerant of the other person over the course of time.
 
 The following can be addressed -
 
@@ -51,9 +51,18 @@ def main():
    # write your solution here
 
    for i in range(len(Names)):
-      print("%s %.2f%%" % (Names[i], 'Peter'))    # current just prints 100%
+      print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
 
 main()
+
+Main.Corr()
+
+df = Main[['Commitment_Score','Happiness_Score','Appreciation','Conflict','Marital_Status']]
+
+sns.pairplot(df, kind="scatter")
+plt.show()
+
+
 ```
 
 
