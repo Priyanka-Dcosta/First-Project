@@ -9,7 +9,7 @@ The aim of the project is to monitor the behaviour between partners and to know 
 
 ## Background
 
-The top fundamental factors that affect a relationship according to the reseacrhers at PNAS are commitment, appreciation, sexual satisfaction, happiness and conflict. The findings suggests that success of a relationshiop often relies in factoring in other person's feelings. People often break up as they are too self centered or no longer are tolerant of the other person over the course of time.
+The top fundamental factors that affect a relationship according to the researchers at Stanforn University (published at PNAS) are commitment, appreciation, sexual satisfaction, happiness and conflict. The findings suggests that success of a relationshiop often relies in factoring in other person's feelings. People often break up as they are too self centered or no longer are tolerant of the other person over the course of time.
 
 The following can be addressed -
 
@@ -21,10 +21,10 @@ The following can be addressed -
 
 ## How is it used?
 
-An algorithm can be built to predict the relationship longevity based on few personal questions that can be used as an input along with newer technologies like voice & face recognition which usually gets modulated with mood change. 
+A correlation can be defined between the relationship traits identified and public data set available. 
 
-1) Partners will be given a series of personal questions (max 10 questions) which will provide the base for data point.
-2) A series of questions on interests and dislikes can be asked to capture the data points using face recognition techniques.
+1) I am using a mock data with 5 arrays for each trait.
+2) The columns taken as Name, Marital status , Commitment score, Happiness score, Appreciation score and Conflict score.
 3) The input from above then can be bumped against set of relationship traits/ individual traits (published by PNAS) to chart success rate and years in chart.
 
 This AI can help individuals who are new to dating or have been in relationship for long , therapists, marraige counselars . Past relationship patterns can be used to predict events ahead much more efficiently and more accurately using this AI technology.
@@ -51,7 +51,7 @@ def main():
    # write your solution here
 
    for i in range(len(Names)):
-      print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
+      print("%s %.2f%%" % (Names[i], 'Peter'))    # current just prints 100%
 
 main()
 ```
