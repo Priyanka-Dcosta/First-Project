@@ -35,22 +35,31 @@ This AI can help individuals who are new to dating or have been in relationship 
 
 
 def main():
+
    Names = ['Peter', 'Lily', 'Bianca', 'James', 'Greg']
+   
    Marital_Status = ['Yes', 'Yes', 'Yes', 'No', 'No']
+   
    Commitment_Score = [6.7, 7.2, 8.4, 6.5, 4.6]   
+   
    Happiness_Score = [7, 8, 9, 6, 4]
+   
    Appreciation = [7, 8, 9, 6, 4]
+   
    Conflict = [2,4, 2.1, 3.4, 4.5, 4.8]
 
    totComit = sum(Commitment_Score)
+   
    totHapp = sum(Happiness_Score)
+   
    totAppre = sum(Appreciation)
+   
    totConf = sum(Conflict)
    
    # write your solution here
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+   for i in range(len(Names)):
+      print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
 
 main()
 ```
