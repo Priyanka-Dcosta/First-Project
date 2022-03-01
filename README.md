@@ -29,12 +29,10 @@ An algorithm can be built to predict the relationship longevity based on few per
 
 This AI can help individuals who are new to dating or have been in relationship for long , therapists, marraige counselars . Past relationship patterns can be used to predict events ahead much more efficiently and more accurately using this AI technology.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Relationship traits](https://github.com/Priyanka-Dcosta/First-Project/blob/main/31304986-8569947-image-a-14_1595972850088.jpg)
+![Relationship traits]<img src="https://github.com/Priyanka-Dcosta/First-Project/blob/main/31304986-8569947-image-a-14_1595972850088.jpg" width="300">
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+
 
 This is how you create code examples:
 ```
