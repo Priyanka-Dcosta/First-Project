@@ -9,7 +9,7 @@ The aim of the project is to monitor the behaviour between partners and to know 
 
 ## Background
 
-The top fundamental factors that affect a relationship according to the researchers at Stanford University (published at PNAS) are commitment, appreciation, sexual satisfaction, happiness and conflict. The findings suggests that success of a relationshiop often relies in factoring in other person's feelings. People often break up as they are too self centered or no longer are tolerant of the other person over the course of time.
+The top fundamental factors that affect a relationship according to the researchers (published at PNAS) are commitment, appreciation, sexual satisfaction, happiness and conflict. The findings suggests that success of a relationshiop often relies in factoring in other person's feelings. People often break up as they are too self centered or no longer are tolerant of the other person over the course of time.
 
 The following can be addressed -
 
@@ -56,7 +56,6 @@ def main():
 | Bianca      | 8           | 7          | 6          | 5             | Yes           |
 | James       | 6           | 7          | 6          | 5             | Yes           |
 | Greg        | 6           | 8          | 7          | 3             | No            |
-
         Tot   |  41         |  36        | 34         |  20           |
        
    
@@ -73,12 +72,12 @@ main()
 
 ![Relationship score]
 
-<img src="https://github.com/Priyanka-Dcosta/First-Project/blob/main/31304986-8569947-image-a-14_1595972850088.jpg" width="600">
+<img src="https://github.com/Priyanka-Dcosta/First-Project/blob/main/Screen-Shot-2018-05-16-at-11.54.11-AM.png" width="600">
 
 
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+DataRobot team has used codes published by Stanford unviersity to  arrive at a relationship score which predicts how likely a couple will stay together for more than 2 years based on few datpoints collected by surveying them.In the image above, online data was gathered for Prince Harry and Megan Merkel.
+
+[DataRobot API](https://www.datarobot.com/blog/preparing-the-data-for-relationships-by-datarobot/)
 
 | Syntax      | Description |
 | ----------- | ----------- |
