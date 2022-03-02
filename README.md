@@ -48,12 +48,6 @@ def main():
 
 main()
 
-Main.Corr()
-
-df = Main[['Commitment_Score','Happiness_Score','Appreciation','Conflict','Marital_Status']]
-
-sns.pairplot(df, kind="scatter")
-plt.show()
 
 
 ```
