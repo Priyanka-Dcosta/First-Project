@@ -51,7 +51,9 @@ def main():
    
    for i in range(len(Names)):
       print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
+      
    main()
+  
    ----
 | Names       | Commit_Score| Appre_Score| Happ_Score |Conflict_Score |Marital_Status |
 | ----------- | ------------|------------|------------|---------------|---------------|
@@ -72,7 +74,7 @@ def main():
 
 [DataRobot API](https://www.datarobot.com/blog/preparing-the-data-for-relationships-by-datarobot/)
 
-DataRobot team has used codes published by Stanford unviersity to  arrive at a relationship score which predicts how likely a couple will stay together for more than 2 years based on few datpoints collected by surveying them.In the image above, online data was gathered for Prince Harry and Megan Merkel. Thsi kind og scoring system along with checking data between few variables suggests how relationship traits are correlated with each other and are essential to cauculate the likely success of a relationship.
+DataRobot team has used codes published by Stanford unviersity to  arrive at a relationship score which predicts how likely a couple will stay together for more than 2 years based on few datpoints collected by surveying them.In the image above, online data was gathered for Prince Harry and Megan Merkel. This kind of scoring system along with checking data between few variables suggests how relationship traits are correlated with each other and are essential to cauculate the likely success of a relationship.
 
 [PNAS Data](https://www.pnas.org/doi/10.1073/pnas.1917036117#t02)
 
@@ -83,11 +85,11 @@ Below is an excerpt of 43 dataset collected by reseachers after surveying 11,000
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Analysing realtion & individual traits and developing a correlation between them to predict how a relationship should be perceived and how likely it can be successful based on the datapoints collected but these cannot be used to accurately suggest if a couple will make it or not as there are professionals like relationship experts, marriage counsellors,psychiatrists who can connect with individuals and take this call.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+I have simply collected and exhibited the data and images from online but since I am new to python and machine learning , I would like help on actually understanding how machine learning is used to predict data. If we can bring in more training data set into the above equation from public domains, may be the project can provide scores precisely. 
 
 
 ## Acknowledgments
@@ -95,7 +97,4 @@ How could your project grow and become something even more? What kind of skills,
 * https://www.pnas.org/content/117/32/19061#abstract-2 
 * https://www.icpsr.umich.edu/web/ICPSR/studies/30103 - Michael J. Rosenfeld, Stanford University; Reuben J. Thomas, City College of New York; Maja Falcon, Stanford University
 * 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* 
