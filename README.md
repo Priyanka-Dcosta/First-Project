@@ -25,7 +25,7 @@ A correlation can be defined between the relationship traits identified and publ
 
 1) I am using a mock data with 5 arrays for each trait.
 2) The columns taken as Name, Marital status , Commitment score, Happiness score, Appreciation score and Conflict score.
-3) The input from above then can be bumped against set of relationship traits/ individual traits (published by PNAS) to chart success rate and years in chart.
+3) The input from above then can be bumped against set of relationship traits/ individual traits (published by Stanford University) to chart success rate and years in chart.
 
 This AI can help individuals who are new to dating or have been in relationship for long , therapists, marraige counselars . Past relationship patterns can be used to predict events ahead much more efficiently and more accurately using this AI technology.
 
@@ -49,6 +49,10 @@ def main():
    totHapp = sum(Happ_Score)
    totConf = sum(Conflict_Score)
    
+   for i in range(len(Names)):
+      print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
+   main()
+   ----
 | Names       | Commit_Score| Appre_Score| Happ_Score |Conflict_Score |Marital_Status |
 | ----------- | ------------|------------|------------|---------------|---------------|
 | Peter       | 6           | 6          | 7          | 4             | Yes           |
@@ -56,13 +60,8 @@ def main():
 | Bianca      | 8           | 7          | 6          | 5             | Yes           |
 | James       | 6           | 7          | 6          | 5             | Yes           |
 | Greg        | 6           | 8          | 7          | 3             | No            |
-| Tot         |  41         |  36        | 34         |  20           |               |
+| Tot         |  41         | 36         | 34         | 20            |               |
        
- 
-   for i in range(len(Names)):
-      print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
-
-main()
 
 ![Relationship score]
 
@@ -71,9 +70,18 @@ main()
 
 ## Data sources and AI methods
 
-DataRobot team has used codes published by Stanford unviersity to  arrive at a relationship score which predicts how likely a couple will stay together for more than 2 years based on few datpoints collected by surveying them.In the image above, online data was gathered for Prince Harry and Megan Merkel.
+DataRobot team has used codes published by Stanford unviersity to  arrive at a relationship score which predicts how likely a couple will stay together for more than 2 years based on few datpoints collected by surveying them.In the image above, online data was gathered for Prince Harry and Megan Merkel. Thsi kind og scoring system along with checking data between few variables suggests how relationship traits are correlated with each other and are essential to cauculate the likely success of a relationship.
 
 [DataRobot API](https://www.datarobot.com/blog/preparing-the-data-for-relationships-by-datarobot/)
+
+Construct	No. of predictors tested	Percent of actor versions successful	Percent of partner versions successful	Overall success rate, %
+Predicting satisfaction	Predicting commitment	Predicting satisfaction, %	Predicting commitment, %	Predicting satisfaction, %	Predicting commitment, %
+Perceived partner commitment	10	10	90	70	100	80	85
+Intimacy	12	9	92	92	67	67	81
+Appreciation	10	10	90	80	60	60	72
+Love	17	17	88	53	76	65	71
+Sexual satisfaction	20	13	90	75	54	54	71
+Perceived partner satisfaction	11	9	91	64	78	44	70
 
 | Syntax      | Description |
 | ----------- | ----------- |
