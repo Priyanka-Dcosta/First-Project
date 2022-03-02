@@ -58,12 +58,11 @@ def main():
 | Greg        | 6           | 8          | 7          | 3             | No            |
 | Tot         |  41         |  36        | 34         |  20           |               |
        
-   
+ 
    for i in range(len(Names)):
       print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
 
 main()
-```
 
 ![Relationship score]
 
