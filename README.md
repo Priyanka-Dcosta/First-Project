@@ -36,10 +36,29 @@ This AI can help individuals who are new to dating or have been in relationship 
 
 def main():
 
+# Create table using string and numbers. (The scores are computed from the survey conducted on couples. The below data is mock)
    Names = ['Peter', 'Lily', 'Bianca', 'James', 'Greg']
-   Commitment_Score = [6.7, 7.2, 8.4, 6.5, 4.6]   
+   Marital_Status = ['Yes', 'No', 'Yes', 'Yes', 'No']
+   Commit_Score = [6, 7, 8, 6, 6]   
+   Appre_Score = [6, 8, 7, 7, 8]
+   Happ_Score = [7, 8, 6, 6, 7]
+   Conflict_Score = [4, 3, 5, 5, 3]
    
-   totComit = sum(Commitment_Score)
+   totComit = sum(Commit_Score)
+   totAppr = sum(Appre_Score)
+   totHapp = sum(Happ_Score)
+   totConf = sum(Conflict_Score)
+   
+| Names       | Commit_Score| Appre_Score| Happ_Score |Conflict_Score |Marital_Status |
+| ----------- | ------------|------------|------------|---------------|---------------|
+| Peter       | 6           | 6          | 7          | 4             | Yes           |
+| Lily        | 7           | 8          | 8          | 3             | No            |
+| Bianca      | 8           | 7          | 6          | 5             | Yes           |
+| James       | 6           | 7          | 6          | 5             | Yes           |
+| Greg        | 6           | 8          | 7          | 3             | No            |
+
+        Tot   |  41         |  36        | 34         |  20           |
+       
    
    # write your solution here
 
