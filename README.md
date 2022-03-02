@@ -85,11 +85,11 @@ Below is an excerpt of 43 dataset collected by reseachers after surveying 11,000
 
 ## Challenges
 
-Analysing realtion & individual traits and developing a correlation between them to predict how a relationship should be perceived and how likely it can be successful based on the datapoints collected but these cannot be used to accurately suggest if a couple will make it or not as there are professionals like relationship experts, marriage counsellors,psychiatrists who can connect with individuals and take this call.
+Analysing realtionship & individual traits and developing a correlation between them may help to predict how a relationship should be perceived and how likely it can be successful based on the datapoints collected but these cannot be used to accurately suggest if a couple will make it or not as there are professionals like relationship experts, marriage counsellors,psychiatrists who can connect with individuals and take this call.
 
 ## What next?
 
-I have simply collected and exhibited the data and images from online but since I am new to python and machine learning , I would like help on actually understanding how machine learning is used to predict data. If we can bring in more training data set into the above equation from public domains, may be the project can provide scores precisely. 
+I have  collected and exhibited the data and images from online but since I am new to python and machine learning , I would like help on actually understanding how machine learning is used to predict data. If we can bring in more training data set into the above equation from public domains, may be the project can provide scores precisely. 
 
 
 ## Acknowledgments
