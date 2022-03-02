@@ -66,13 +66,16 @@ def main():
       print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
 
 main()
-
-
-
 ```
 
 
 ## Data sources and AI methods
+
+![Relationship score]
+
+<img src="https://github.com/Priyanka-Dcosta/First-Project/blob/main/31304986-8569947-image-a-14_1595972850088.jpg" width="600">
+
+
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
 If you need to use links, here's an example:
 [Twitter API](https://developer.twitter.com/en/docs)
