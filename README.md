@@ -74,14 +74,17 @@ DataRobot team has used codes published by Stanford unviersity to  arrive at a r
 
 [DataRobot API](https://www.datarobot.com/blog/preparing-the-data-for-relationships-by-datarobot/)
 
-Construct	No. of predictors tested	Percent of actor versions successful	Percent of partner versions successful	Overall success rate, %
-Predicting satisfaction	Predicting commitment	Predicting satisfaction, %	Predicting commitment, %	Predicting satisfaction, %	Predicting commitment, %
+Construct	No. of predictors tested		Percent of actor versions successful		Percent of partner versions successful		Overall success rate, %
+	Predicting satisfaction	Predicting commitment	Predicting satisfaction, %	Predicting commitment, %	Predicting satisfaction, %	Predicting commitment, %	
 Perceived partner commitment	10	10	90	70	100	80	85
 Intimacy	12	9	92	92	67	67	81
 Appreciation	10	10	90	80	60	60	72
 Love	17	17	88	53	76	65	71
 Sexual satisfaction	20	13	90	75	54	54	71
 Perceived partner satisfaction	11	9	91	64	78	44	70
+![image](https://user-images.githubusercontent.com/100334097/156302581-163b0a5b-82fb-4632-9a56-40c005f86e24.png)
+
+
 
 | Syntax      | Description |
 | ----------- | ----------- |
