@@ -56,24 +56,21 @@ def main():
 | Bianca      | 8           | 7          | 6          | 5             | Yes           |
 | James       | 6           | 7          | 6          | 5             | Yes           |
 | Greg        | 6           | 8          | 7          | 3             | No            |
-        Tot   |  41         |  36        | 34         |  20           |
+| Tot         |  41         |  36        | 34         |  20           |               |
        
    
-   # write your solution here
-
    for i in range(len(Names)):
       print("%s %.2f%%" % (Names[i], 100.0))    # current just prints 100%
 
 main()
 ```
 
-
-## Data sources and AI methods
-
 ![Relationship score]
 
 <img src="https://github.com/Priyanka-Dcosta/First-Project/blob/main/Screen-Shot-2018-05-16-at-11.54.11-AM.png" width="600">
 
+
+## Data sources and AI methods
 
 DataRobot team has used codes published by Stanford unviersity to  arrive at a relationship score which predicts how likely a couple will stay together for more than 2 years based on few datpoints collected by surveying them.In the image above, online data was gathered for Prince Harry and Megan Merkel.
 
